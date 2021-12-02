@@ -1,0 +1,34 @@
+Trying:
+    test_morse('SOS')
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    test_morse('OOOOOOOOO') # doctest: +ELLIPSIS
+Expecting:
+    '--- ... ---'
+ok
+Trying:
+    encode('S O      S') # doctest: +NORMALIZE_WHITESPACE
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    test_morse('sos')
+Expecting:
+    Traceback (most recent call last):
+    KeyError: 's'
+ok
+Trying:
+    test_morse(1337)
+Expecting:
+    Traceback (most recent call last):
+    TypeError: 'int' object is not iterable
+ok
+1 items had no tests:
+    test_morse
+1 items passed all tests:
+   5 tests in test_morse.test_morse
+5 tests in 2 items.
+5 passed and 0 failed.
+Test passed.
