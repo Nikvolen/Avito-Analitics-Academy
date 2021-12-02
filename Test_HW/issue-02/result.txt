@@ -1,0 +1,13 @@
+===================================== test session starts =====================================
+platform win32 -- Python 3.8.10, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\alex-\AppData
+\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\python.exe
+cachedir: .pytest_cache
+rootdir: F:\Study\ААА\Python\Lesson 10
+collected 4 items                                                                              
+
+test_morse_decode.py::test_decode[... --- ...-SOS] PASSED                                [ 25%]
+test_morse_decode.py::test_decode[.---- ...-- ...-- --...-1337] PASSED                   [ 50%]
+test_morse_decode.py::test_decode[. ...- . -....- --- -. .-.. .. -. .-EVE-ONLINE] PASSED [ 75%]
+test_morse_decode.py::test_decode[..--..-?] PASSED                                       [100%]
+
+====================================== 4 passed in 0.05s ======================================
