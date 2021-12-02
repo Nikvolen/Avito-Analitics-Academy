@@ -1,0 +1,11 @@
+test_cities_eq (test_one_hot_encoder_unittest.TestOneHotEncoder) ... ok
+test_cities_not_eq (test_one_hot_encoder_unittest.TestOneHotEncoder) ... ok
+test_cities_not_in (test_one_hot_encoder_unittest.TestOneHotEncoder) ... ok
+test_exception (test_one_hot_encoder_unittest.TestOneHotEncoder) ... ok
+test_ints_eq (test_one_hot_encoder_unittest.TestOneHotEncoder) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+
