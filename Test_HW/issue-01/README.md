@@ -1,3 +1,8 @@
-В командной строке перейти в каталог с файлом test_morse.py, выполнить команду:
+## issue-01
 
-  python -m doctest -v test_morse.py
+В pycharm терминале перейти в директорию с файлом ```test_morse.py```
+
+Выполнить команду:
+```
+python -m doctest -v test_morse.py
+```
