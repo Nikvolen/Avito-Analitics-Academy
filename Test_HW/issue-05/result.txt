@@ -1,0 +1,16 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.10, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\alex-\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\python.exe
+cachedir: .pytest_cache
+rootdir: F:\Study\¿¿¿\Python\Lesson 10
+plugins: cov-3.0.0
+collecting ... collected 3 items
+
+issue05/test_what_is_year_now.py::test_format_yyyy_mm_dd PASSED          [ 33%]
+issue05/test_what_is_year_now.py::test_format_dd_mm_yyyy PASSED          [ 66%]
+issue05/test_what_is_year_now.py::test_invalid_data PASSED               [100%]
+
+---------- coverage: platform win32, python 3.8.10-final-0 -----------
+Coverage HTML written to dir issue05/html_report
+
+
+============================== 3 passed in 0.20s ==============================
