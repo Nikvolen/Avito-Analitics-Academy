@@ -4,5 +4,5 @@
 
 Выполнить команду:
 ```
-python -m pytest test_morse_decode.py
+python -m pytest -v test_morse_decode.py
 ```
