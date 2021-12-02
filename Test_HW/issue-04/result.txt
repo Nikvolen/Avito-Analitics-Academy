@@ -1,0 +1,15 @@
+===================================== test session starts =====================================
+platform win32 -- Python 3.8.10, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\alex-\AppData
+\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\python.exe
+cachedir: .pytest_cache
+rootdir: F:\Study\ААА\Python\Lesson 10
+collected 5 items                                                                              
+
+test_one_hot_encoder_pytest.py::test_cities_eq PASSED                                    [ 20%]
+test_one_hot_encoder_pytest.py::test_ints_eq PASSED                                      [ 40%]
+test_one_hot_encoder_pytest.py::test_cities_not_eq PASSED                                [ 60%]
+test_one_hot_encoder_pytest.py::test_cities_not_in PASSED                                [ 80%]
+test_one_hot_encoder_pytest.py::test_exception PASSED                                    [100%]
+
+====================================== 5 passed in 0.08s ======================================
+
