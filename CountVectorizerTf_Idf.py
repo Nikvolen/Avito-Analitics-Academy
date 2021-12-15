@@ -100,14 +100,14 @@ if __name__ == '__main__':
 
     print('Задание 2: term frequency')
     transformer = TfidfTransformer()
-    tfidf_matrix = transformer.tf_transform(count_matrix)
-    pprint(tfidf_matrix)
+    tf_matrix = transformer.tf_transform(count_matrix)
+    pprint(tf_matrix)
     print('\n')
 
     print('Задание 3: inverse document-frequency')
     transformer = TfidfTransformer()
-    tfidf_matrix = transformer.idf_transform(count_matrix)
-    print(tfidf_matrix)
+    idf_matrix = transformer.idf_transform(count_matrix)
+    print(idf_matrix)
     print('\n')
 
     print('Задание 4: tf-idf transformer')
